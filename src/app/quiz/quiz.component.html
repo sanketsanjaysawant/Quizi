@@ -1,0 +1,52 @@
+<html>
+
+<body>
+
+  <p id="heading">{{quizName}}</p>
+
+  <div class="container right">
+    <br>
+
+    <div style="float:left ">
+
+      <div *ngFor="let actiVar of activeArray ;let j = index">
+
+        {{actiVar.QuestionID}}.{{actiVar.Question}}
+        <br /><br />
+        <button #buttonRef1 type="button" id="one" (click)="filterAnswer(actiVar.OP[j+0], buttonRef1, id)"
+          [disabled]="permissionoptions">{{actiVar.OP[j+0]}}</button>
+        <br /><br />
+        <button #buttonRef2 type="button" id="two" (click)="filterAnswer(actiVar.OP[j+1], buttonRef2 ,id)"
+          [disabled]="permissionoptions">{{actiVar.OP[j+1]}}</button>
+        <br /><br />
+        <button #buttonRef3 type="button" id="three" (click)="filterAnswer(actiVar.OP[j+2], buttonRef3 ,id)"
+          [disabled]="permissionoptions">{{actiVar.OP[j+2]}}</button>
+        <br /><br />
+        <button #buttonRef4 type="button" id="four" (click)="filterAnswer(actiVar.OP[j+3], buttonRef4 ,id)"
+          [disabled]="permissionoptions">{{actiVar.OP[j+3]}}</button>
+        <br>
+      </div>
+    </div>
+
+  </div>
+
+  <br>
+  <div class="container1">
+    <button type="button" class="btn btn-light" id="button1" *ngIf="this.fLoop != this.questArrayIndex-1"
+      (click)=" next() ">Next</button>
+
+    <button type="submit" class="btn btn-light" id="button2" [disabled]="permissionSubmit"
+      *ngIf="this.lastIndex == this.questArrayIndex" (click)="displayScore()">Submit Score</button>
+
+
+    <!--<button type="<button></button>" class="btn btn-light" id="button3" (click)="previous()">Previous</button>-->
+
+    <br>
+    <br>
+    <p style="font-style: italic ; font-size: 16px" *ngIf="this.scores==true">Thankyou for taking the quiz.<br>Your
+      score is : {{scoreCounter}}/{{this.questArrayIndex}}</p>
+  </div>
+
+</body>
+
+</html>

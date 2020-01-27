@@ -1,0 +1,57 @@
+[
+      {
+            "QuestionID": 1,
+            "Question": "The Government of India (GoI) has launched the web-based application e-FRRO scheme for foreigners. What does ‘FRRO’ stands for ?",
+            "OP": [
+                  "Foreigners Regional Registration Office",
+                  "Foreigners Registry Registration Office",
+                  "Foreigners Reacceptance Registration Office",
+                  "Foreigners Regaining Registration Office"
+            ],
+            "isRight": "Foreigners Regional Registration Office"
+      },
+      {
+            "QuestionID": 2,
+            "Question": "The ozone layer restricts: ",
+            "OP": [
+                  "X-rays and gamma rays",
+                  "Visible light",
+                  "Infrared radiation",
+                  "Ultraviolet radiation"
+            ],
+            "isRight": "Ultraviolet radiation"
+      },
+      {
+            "QuestionID": 3,
+            "Question": "The length of the bridge, which a train 130 metres long and travelling at 45 km/hr can cross in 30 seconds, is:",
+            "OP": [
+                  "200 m",
+                  "225 m",
+                  "245 m",
+                  "250 m"
+            ],
+            "isRight": "245 m"
+      },
+      {
+            "QuestionID": 4,
+            "Question": "Which protocol is used to send a destination network unknown message back to originating hosts?",
+            "OP": [
+                  "TCP",
+                  "ICMP",
+                  "ARP",
+                  "HTTP"
+            ],
+            "isRight": "ICMP"
+      },
+      {
+            "QuestionID": 5,
+            "Question": "Find the odd man out from the given alternatives:",
+            "OP": [
+                  "PQXZ",
+                  "CQBN",
+                  "PRMN",
+                  "ABDF"
+            ],
+            "isRight": "ABDF"
+      }
+]
