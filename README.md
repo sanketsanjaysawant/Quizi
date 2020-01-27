@@ -1,27 +1,17 @@
-# Quizi
+# About Quizi:
+ 
+This project is a fundamental version of a Quiz Application.
+It uses a JSON file to import the Questions and their respective choices into the project. The JSON file is present in the 'assets' folder by name `questions.json`.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
+# Directions:
 
-## Development server
+Install `node_modules` inside the project folder using `npm install` command before executing the project.
+For more information on installation of packages, kindly refer: `https://docs.npmjs.com/cli/install`
+
+Please feel free to report bugs, if any. I'll do my best to fix them .
+
+This project is free to download and edit for anyone but kindly provide this respository's link under references or as the source if you're using it for any official, legal, business or educational purposes.
+
+# Executing the project:
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
